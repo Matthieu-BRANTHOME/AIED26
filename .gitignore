@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data - ignore all files but keep folders
+data/cleaned/*
+!data/cleaned/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Outputs - ignore all files but keep folder
+outputs/*
+!outputs/.gitkeep
+
+# Debug - ignore all files but keep folder
+debug/*
+!debug/.gitkeep
+
+# Export of notebooks
+exports/*
+
+# OS / Editor
+.DS_Store
+*.swp
+*.swo
