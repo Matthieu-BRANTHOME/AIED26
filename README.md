@@ -1,4 +1,4 @@
-![Logo AIED26](../assets/logo_AIED26.png)
+![Logo AIED26](./assets/logo_AIED26.png)
 
 This repository contains supplementary materials accompanying the paper  
 **“Embedding Pedagogical Principles into LLMs: A Field Study of AI-Generated Feedback in a Programming Serious Game.”**
