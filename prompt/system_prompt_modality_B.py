@@ -2301,7 +2301,7 @@ def get_levels_description(language):
     else:
         return LEVELS_DESCRIPTION_FR
 
-# Startup guide
+# STARTUP GUIDE
 
 STARTUP_GUIDE_FOREWORDS_EN ="""
 The startup guide provides general information about how the application works.
@@ -2374,7 +2374,7 @@ STARTUP_GUIDE = {
         + "</startup_guide>\n",
 }
 
-# Programming memo
+# PROGRAMMING MEMO
 
 PROGRAMMING_MEMO_FOREWORDS_EN ="""
 The programming memo is a collection of educational content on the Python language. It is composed of different sections. It describes the basic concepts in Python and then details the main algorithmic concepts (variables, conditionals, for loop, etc.). This memo does not describe the character control functions.
