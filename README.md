@@ -13,7 +13,7 @@ It includes:
 ## 1.1/ Environment Setup
 
 ### 1.1.1/ Prerequisites
-- VSCode with the "Jupyter" and "R" extension (Microsoft)
+- VSCode with the "Jupyter" and "R" extensions (Microsoft)
 - Python 3.12
 - R 4.4.1 2024-06-14
 - Git
@@ -46,6 +46,7 @@ pip install -r requirements.txt
 ```
 
 5/ **Install R libraries**
+Type in the R Console :
 ```R
 install.packages(readLines("requirements_R.txt"))
 ```
