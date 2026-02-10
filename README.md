@@ -13,8 +13,9 @@ It includes:
 ## 1.1/ Environment Setup
 
 ### 1.1.1/ Prerequisites
-- VSCode with the "Jupyter" extension (Microsoft)
+- VSCode with the "Jupyter" and "R" extension (Microsoft)
 - Python 3.12
+- R 4.4.1 2024-06-14
 - Git
 
 ### 1.1.2/ Installation Steps
@@ -44,20 +45,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5/ **Install R version 4.4.1**
-```bash
-sudo apt install r-base=4.4.1-1jammy r-base-core=4.4.1-1jammy  r-recommended=4.4.1-1jammy
-```
-
-(On Windows get R version 4.4.1 2024-06-14 ucrt).
-
-6/ **Install R libraries
+5/ **Install R libraries**
 ```R
 install.packages(readLines("requirements_R.txt"))
 ```
 
-7/ **Configure VSCode**
-- Install R Extension for Visual Studio Code
+6/ **Configure VSCode**
 - Open the project in VSCode
 - Open any notebook (.ipynb file)
 - Click on "Select Kernel" in the top right corner
