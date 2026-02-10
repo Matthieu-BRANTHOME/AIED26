@@ -55,6 +55,7 @@ pytz==2025.2
 pyzmq==27.1.0
 referencing==0.37.0
 rpds-py==0.29.0
+rpy2==3.6.4
 scipy==1.16.3
 six==1.17.0
 soupsieve==2.8

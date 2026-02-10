@@ -44,7 +44,20 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5/ **Configure VSCode**
+5/ **Install R version 4.4.1**
+```bash
+sudo apt install r-base=4.4.1-1jammy r-base-core=4.4.1-1jammy  r-recommended=4.4.1-1jammy
+```
+
+(On Windows get R version 4.4.1 2024-06-14 ucrt).
+
+6/ **Install R libraries
+```R
+install.packages(readLines("requirements_R.txt"))
+```
+
+7/ **Configure VSCode**
+- Install R Extension for Visual Studio Code
 - Open the project in VSCode
 - Open any notebook (.ipynb file)
 - Click on "Select Kernel" in the top right corner
